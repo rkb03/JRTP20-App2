@@ -13,6 +13,9 @@ public class PasswordService {
 	
 	public static String decode(String encodeTxt) {
 		
+		//changes for bug-123
+		String name="Ranjan";
+		
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);		
 		return new String(decode);
