@@ -35,5 +35,6 @@ public static void process() {
 public static void m1(){
 }
 int h= 89;
+int y=90;
 
 }
