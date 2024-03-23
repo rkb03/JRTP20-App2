@@ -6,10 +6,7 @@ import java.util.Base64.Encoder;
 
 public class PasswordService {
 	
-	int i=10;
-	int j=20;
-	int phNo=3290;
-	int k=30;
+	
 	
 	public static String encode(String txt) {
 		Encoder encoder = Base64.getEncoder();
@@ -28,13 +25,5 @@ public static void main(String[] args) {
 	System.out.println(decode);
 }
 
-public static void process() {
-	
-}
-
-public static void m1(){
-}
-int h= 89;
-int y=90;
 
 }
