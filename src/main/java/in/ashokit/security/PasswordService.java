@@ -13,6 +13,8 @@ public class PasswordService {
 		return encoder.encodeToString(txt.getBytes());
 	}
 	public static String decode(String encodeTxt) {
+		//change for BUG-121
+		String name="Raju";
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
 		return new String(decode);
