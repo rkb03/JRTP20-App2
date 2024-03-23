@@ -26,4 +26,10 @@ public static void main(String[] args) {
 	System.out.println(encode);
 	String decode = PasswordService.decode(encode);
 	System.out.println(decode);
-}}
+}
+
+public static void process() {
+	
+}
+
+}
