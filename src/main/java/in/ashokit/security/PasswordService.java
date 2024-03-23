@@ -32,4 +32,8 @@ public static void process() {
 	
 }
 
+public static void m1(){
+}
+
+
 }
